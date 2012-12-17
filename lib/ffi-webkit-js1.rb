@@ -1,7 +1,7 @@
 require 'gir_ffi'
 require 'JS'
 
-GirFFI.setup :WebKit
+GirFFI.setup :WebKit,"1.0"
 
 module WebKit
   module Lib
