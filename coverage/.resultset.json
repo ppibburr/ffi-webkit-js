@@ -1,0 +1,54 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/home/ppibburr/git/ffi-webkit-js/lib/ffi-webkit-js.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1
+      ],
+      "/home/ppibburr/git/ffi-webkit-js/lib/ffi-webkit-js/web_frame.rb": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/home/ppibburr/git/ffi-webkit-js/lib/ffi-webkit-js/dom_element.rb": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1355854407
+  }
+}
