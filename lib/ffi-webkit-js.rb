@@ -1,6 +1,6 @@
 require 'gir_ffi'
 require 'JS/base'
-
+require 'gir_ffi-webkit'
 GirFFI.setup :WebKit
 
 module WebKit
