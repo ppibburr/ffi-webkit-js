@@ -11,3 +11,4 @@ module WebKit
 end
 
 require 'ffi-webkit-js/web_frame'
+require 'ffi-webkit-js/dom_element'
