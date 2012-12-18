@@ -1,26 +1,23 @@
-# -*- encoding: utf-8 -*-
-
 Gem::Specification.new do |s|
   s.name = "ffi-webkit-js"
   s.version = "0.0.1"
+  #s.date = Time.now.to_s
+ 
 
-  s.summary = "GirFFI-based bridge between WebKit and RubyJS"
+  s.summary = "Helper to load in JavaScriptCore access in WebKit"
 
-  s.authors = ["Matijs van Zuijlen"]
-  s.email = ["matijs@matijs.net"]
-  s.homepage = "http://www.github.com/mvz/ffi-webkit-js"
-
+  s.authors = ["Matt Mesanko"]
+  s.email = ["tulnor@linuxwaves.com"]
+  s.homepage = "http://www.github.com/ppibburr/ffi-webkit-js"
+  s.has_rdoc = 'yard'
   s.rdoc_options = ["--main", "README.rdoc"]
 
-  s.files = Dir['{lib,test,tasks,examples}/**/*', "*.rdoc", "History.txt", "Rakefile"] & `git ls-files -z`.split("\0")
-  s.extra_rdoc_files = ["README.rdoc"]
+  s.files = Dir['{lib,test,tasks,samples}/**/**/*', "*.rdoc", "Rakefile"] & `git ls-files -z`.split("\0")
+  p s.files
+  #s.extra_rdoc_files = ["README.rdoc", "TODO.rdoc"]
   s.test_files = `git ls-files -z -- test`.split("\0")
 
-  s.add_runtime_dependency(%q<gir_ffi>, ["~> 2.1.0"])
-  s.add_runtime_dependency(%q<ruby_js>, ["~> 0.1.0"])
-  s.add_development_dependency('minitest', [">= 2.0.2"])
-  s.add_development_dependency('rake', ["~> 0.9.2"])
+  s.add_runtime_dependency(%q<gir_ffi-webkit>, ["~> 0.0.1"])
 
   s.require_paths = ["lib"]
 end
-

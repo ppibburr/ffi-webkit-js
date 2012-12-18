@@ -1,7 +1,7 @@
 require File.expand_path('test_helper.rb', File.dirname(__FILE__))
-require 'ffi-gtk2'
+#require 'ffi-gtk2'
 
-Gtk.init
+Gtk.init []
 
 describe WebKit::WebFrame do
   describe "#get_global_context" do

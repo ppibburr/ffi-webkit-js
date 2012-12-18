@@ -16,6 +16,12 @@ namespace :test do
   end
 end
 
+namespace :gem do
+  task :build do
+  	sh %{gem build ffi-webkit-js.gemspec}
+  end
+end
+
 desc 'Run tests'
 task :test => ['test:run']
-
+task :gem => ['gem:build']
